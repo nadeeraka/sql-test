@@ -8,3 +8,8 @@ create table users(
 -- drop table users;
 insert into  users (user_name, last_name, email, password)
 values ('bob','bobiee', 'bob@bob.com','q2w3e4^%$$$£r5t£$%6y7u8i90"£')
+
+select user_name from users;
+
+select user_name, last_name, email, password from users
+
