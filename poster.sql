@@ -53,7 +53,7 @@ update users set age = age - 10 where age >20
 
 -- delete
 
-delete  from  users where  id = 3
+delete  from  users where  id = 3;
 
 --  create relation
 
@@ -67,4 +67,6 @@ create table post(
 insert into post (title,body,authorId)
 values ('Test', 'bla bala blaa aa ',1);
 
-select * from post
+-- select * from post
+
+delete from users where id = 1
