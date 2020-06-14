@@ -10,12 +10,14 @@ create table users(
 insert into  users (id,user_name, last_name, email, password)
 values (default,'bob2','bobiee', 'bob@bob2.com','q2w3e4^%$$$£r5t£$%6y7u8i90"£')
 
+--selecting
+
 select user_name from users;
--- note this not efficient way
+
 select user_name, last_name, email, password from users;
 
 
--- this is the right way
+-- select all
 select * from  users;
 
 -- modifying table
